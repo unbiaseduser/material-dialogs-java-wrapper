@@ -12,6 +12,7 @@ afterEvaluate {
                 pom {
                     name = artifact_id
                     description = 'Material Dialogs wrapper API for Java projects'
+                    url = 'https://github.com/unbiaseduser/material-dialogs-java-wrapper'
                     licenses {
                         license {
                             name = 'The Apache Software License, Version 2.0'
@@ -25,6 +26,11 @@ afterEvaluate {
                             email = 'quangtrung02hn16@gmail.com'
                             url = 'https://github.com/unbiaseduser'
                         }
+                    }
+                    scm {
+                        connection = 'scm:git:github.com/unbiaseduser/material-dialogs-java-wrapper.git'
+                        developerConnection = 'scm:git:ssh://github.com/unbiaseduser/material-dialogs-java-wrapper.git'
+                        url = 'https://github.com/unbiaseduser/material-dialogs-java-wrapper/tree/master'
                     }
                 }
             }
