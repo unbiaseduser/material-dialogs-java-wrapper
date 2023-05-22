@@ -2,7 +2,20 @@
 [Material Dialogs](https://github.com/afollestad/material-dialogs) wrapper API for Java projects.
 
 ## Including in your project
-TBD.
+Add `jitpack.io` repository to your list of repos:
+```gradle
+maven { url "https://jitpack.io" }
+```
+```gradle
+//Each module corresponds to the wrapped library's functionality.
+implementation 'com.github.unbiaseduser.material-dialogs-java-wrapper:core:1.0'
+implementation 'com.github.unbiaseduser.material-dialogs-java-wrapper:bottomsheets:1.0'
+implementation 'com.github.unbiaseduser.material-dialogs-java-wrapper:color:1.0'
+implementation 'com.github.unbiaseduser.material-dialogs-java-wrapper:datetime:1.0'
+implementation 'com.github.unbiaseduser.material-dialogs-java-wrapper:files:1.0'
+implementation 'com.github.unbiaseduser.material-dialogs-java-wrapper:input:1.0'
+implementation 'com.github.unbiaseduser.material-dialogs-java-wrapper:lifecycle:1.0'
+```
 
 ## Usage
 This wrapper follows the wrapped library's structure to the T.
